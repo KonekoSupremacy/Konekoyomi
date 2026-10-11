@@ -20,11 +20,11 @@ Konekoyomi is a fork of a free and open source manga reader for Android 8.0 and 
 * **Tag merging:** a tag can be shown as another tag everywhere without touching the entry's stored tags. For example, Reincarnation and Transmigration show as Isekai. Entries are found by either name, entry pages show the merged name, and everything is case-insensitive.
 * **Automatic cleanup:** spelling variants of the same tag (`big_breasts`, `Big breasts`, `Big Breasts ♀`) merge on their own, and a starter list of common synonyms is built in.
 * **Tags screen** (Settings, Library, Tags): every tag with its count, sort by count or name, search, undo any merge, and a review list of suggested merges.
-* **Tag filter:** type in the library search and matching tags appear with counts, for example `Isekai (508)`. Tap to include a tag, long-press to exclude it. Chips sit under the search bar and combine with AND.
-* **Saved filters:** save a set of chips under a name and apply it again with one tap.
+* **Tag filter:** type in the library search and matching tags appear with counts, for example `+ Isekai (508)`. Tap to include a tag, long-press to exclude it. Start with `-` (for example `-romance`) to pick tags to exclude. Included tags are green with a `+`, excluded tags are red with a `-`, and the chips sit under the search bar and combine with AND.
+* **Adding tags to an entry:** the Add tags box in Edit info suggests tags from your library with counts as you type.
 * **Tag from an entry:** tap a tag on an entry page, choose Search, and the library opens filtered by it.
 * **Library search syntax:** AND, OR (`||`), exclusion (`-`), quotes, nested brackets, `tag:` and `genre:` prefixes, and comparisons like `unread>100`.
-* Merges and saved filters are saved in backups as optional fields, so stock Mihon can still read the backup.
+* Merges are saved in backups as an optional field, so stock Mihon can still read the backup.
 
 ### Pawchive
 
